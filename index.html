@@ -32,7 +32,7 @@ function calculer()
    var A= Number(document.getElementById('A').value);
    var B= Number(document.getElementById('B').value);
            { 
-	variable_X=(5+(3*(Math.sqrt(B-A))*(Math.log(B/A))));
+	variable_X=Math.round((5+(3*(Math.sqrt(B-A))*(Math.log(B/A)))));
         document.getElementById('Resultat').innerHTML = variable_X;
 	}
     
