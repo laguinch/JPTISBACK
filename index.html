@@ -26,7 +26,20 @@
   </style>
 </head>
 
-<script type="text/javascript">
+<div id="x"></div>
+
+    <script>
+
+    var img = document.createElement("img");
+    img.src = "logopoker.jpg";
+
+    var div = document.getElementById("x");
+    div.appendChild(img);
+    //block.setAttribute("style", "text-align:center");
+
+    </script>
+
+	<script type="text/javascript">
 function calculer()
    {
    var A= Number(document.getElementById('A').value);
